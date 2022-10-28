@@ -1,0 +1,33 @@
+name: astra  
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  custom_sliding_segmented_control: ^1.7.3
+  flutter_tabler_icons: ^1.1.1
+  chart_sparkline: ^1.0.11
+  cupertino_icons: ^1.0.2
+  url_launcher: ^6.0.3
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  hive_generator: ^1.1.3
+  build_runner: ^2.1.11
+
+flutter:
+  uses-material-design: true
